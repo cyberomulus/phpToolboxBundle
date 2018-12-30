@@ -1,0 +1,35 @@
+{
+	"name" : "cyberomulus/php-toolbox-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Integrate cyberomulus/phpToolbox in symfony service",
+	"keywords" : [
+		"php",
+		"toolbox",
+		"functions"
+	],
+	"homepage" : "https://github.com/cyberomulus/phpToolboxBundle",
+	"support" : {
+		"email" : "me@cyberomulus.me",
+		"issues" : "https://github.com/cyberomulus/phpToolboxBundle/issues",
+		"source" : "https://github.com/cyberomulus/phpToolboxBundle"
+	},
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Brack Romain",
+			"email" : "me@cyberomulus.me",
+			"homepage" : "http://www.cyberomulus.me"
+		}
+	],
+	"require" : {
+		"php" : "^7.1.3"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Cyberomulus\\PhpToolboxBundle\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"Tests/"
+		],
+		"minimum-stability" : "dev"
+	}
+}
