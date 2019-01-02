@@ -6,6 +6,8 @@
 								http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="cyberomulus_phpToolBox" class="cyberomulus\phpToolbox\PhpToolbox" />
+    	<defaults autowire="true" autoconfigure="true" public="true" />
+        <service id="cyberomulus.phptoolbox" class="Cyberomulus\PhpToolbox\PhpToolbox" autowire="true" />
+        <service id="Cyberomulus\PhpToolbox\PhpToolbox" alias="cyberomulus.phptoolbox" />
     </services>
 </container>
