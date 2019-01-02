@@ -7,6 +7,7 @@
 
     <services>
     	<defaults autowire="true" autoconfigure="true" public="true" />
-        <service id="cyberomulus_phpToolBox" class="Cyberomulus\PhpToolbox\PhpToolbox" />
+        <service id="cyberomulus.phptoolbox" class="Cyberomulus\PhpToolbox\PhpToolbox" autowire="true" />
+        <service id="Cyberomulus\PhpToolbox\PhpToolbox" alias="cyberomulus.phptoolbox" />
     </services>
 </container>
