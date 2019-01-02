@@ -9,7 +9,7 @@ Integrate [cyberomulus/phpToolbox](https://github.com/cyberomulus/phpToolbox) in
 Open a command console, enter your project directory and execute:
 
 ```console
-$ composer require cyberomulus/php-toolbox-bundle
+$ composer require cyberomulus/php-toolbox-bundle:1.*
 ```
 
 ### Applications that don't use Symfony Flex
@@ -20,7 +20,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require cyberomulus/php-toolbox-bundle
+$ composer require cyberomulus/php-toolbox-bundle:1.0
 ```
 
 This command requires you to have Composer installed globally, as explained
