@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace cyberomulus\phpToolboxBundle\DependencyInjection;
+namespace Cyberomulus\PhpToolboxBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;

@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace cyberomulus\phpToolboxBundle;
+namespace Cyberomulus\PhpToolboxBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
