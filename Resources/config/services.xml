@@ -7,5 +7,6 @@
 
     <services>
         <service id="cyberomulus_phpToolBox" class="cyberomulus\phpToolbox\PhpToolbox" />
+        <service id="cyberomulus.phpToolBox" alias="cyberomulus_phpToolBox" />
     </services>
 </container>
