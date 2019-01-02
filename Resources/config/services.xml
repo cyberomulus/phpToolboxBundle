@@ -6,7 +6,6 @@
 								http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="cyberomulus_phpToolBox" class="cyberomulus\phpToolbox\PhpToolbox" />
-        <service id="cyberomulus.phpToolBox" alias="cyberomulus_phpToolBox" />
+        <service id="cyberomulus_phpToolBox" class="cyberomulus\phpToolbox\PhpToolbox" public="true" />
     </services>
 </container>
